@@ -1,0 +1,44 @@
+body {
+    margin-top: 55px; 
+}
+
+#showcase {
+  height:400px;
+  color:gray;
+  }
+
+#blogcase {
+    height:300px;
+    color:gray;
+    }
+
+.mb-resp{
+      height:190px;
+      margin-bottom: 1rem;
+  }
+
+
+#boxes .card:hover{
+    background: rgba(243, 241, 241, 0.5); 
+  }
+
+#mid-section a{
+    color:#333;
+  }
+
+#mid-section a:hover{
+      text-decoration: none;
+      color:#138c7d;
+  }
+
+#boxes a:hover{
+    text-decoration: none;
+  }
+
+#explore-section .fas{
+  color: #fff;
+  background-color: #138c7d;
+  padding: 5px;
+  border-radius: 5px;
+}
+
