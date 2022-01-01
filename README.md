@@ -16,4 +16,4 @@ Web Site Demo Link **(front-end only)** :
 
 License and Copyright
 
->> License under the [MIT License](License).
+>> License under the [MIT License](LICENSE).
