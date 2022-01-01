@@ -13,3 +13,7 @@ Contributers:
 Web Site Demo Link **(front-end only)** :
 
 >> https://sachindumalshan.github.io/EngHack2021/
+
+License and Copyright
+
+>> License under the [MIT License](License).
