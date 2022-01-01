@@ -4,10 +4,7 @@ The EngHack 2021 idea hackathon was organized Department of computer science and
 In there we developed a web-based application that can enhance the English language skills such as writing, speaking, reading and listening. Here I have added the all the web page files of front-end.
 
 Below technologies were used to build the front-end.
->> Bootstrap 4
->> JavaScript
->> HTML
->> CSS
+>> Bootstrap 4 | JavaScript | HTML | CSS
  
 Members of Team Aces:
 
