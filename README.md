@@ -8,10 +8,7 @@ Below technologies were used to build the front-end.
  
 Members of Team Aces:
 
-Sachindu Malshan
-Ranidu Harshana
-Heshan Jayalath
-Isuru Jinasena
+>> Sachindu Malshan | Ranidu Harshana | Heshan Jayalath | Isuru Jinasena
 
 Web Site Demo Link :
 
