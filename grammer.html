@@ -49,11 +49,26 @@
 
     <!-- ### MID SECTION ###-->
 
-    <section id="mid-section" class="py-5 bg-light" >
+    <section id="mid-section" class="py-3 bg-light" >
         <div class="container">
             <div class="row">
-                <div class="col-md-3 text-center">
-                    <div class="card mb-3">
+                <div class="col-md-3 ">
+
+                    <div class="d-none d-md-block ">
+                        <span class="d-block p-2 text-white " style="background-color:#138c7d;"><i class="fas fa-bookmark pr-2"></i> Writing</span>
+                        <span class="d-block p-2 mt-2" style="background-color:#97f3e8;"><a href="write.html" class="text-dark">Article<i class="fas fa-arrow-circle-right pl-2"></i></a></span>
+                        <span class="d-block p-2 mt-2 mb-2" style="background-color:#97f3e8;"><a href="grammer.html" class="text-dark ">Grammer<i class="fas fa-arrow-circle-right pl-2"></i></a></span>
+                    </div>
+
+                    <div class="dropdown text-center d-md-none">
+                        <button class="btn btn-lg dropdown-toggle text-white mb-2" style="background-color: #138c7d; width: 100%;" type="button" id="dropdownMenuButton" data-toggle="dropdown" ><i class="fas fa-bookmark pr-2"></i> Writing</button>
+                        <div class="dropdown-menu text-center w-100" aria-labelledby="dropdownMenuButton">
+                            <span class="d-block p-2 mt-2 dropdown-item" style="background-color:#97f3e8;"><a href="write.html" class="text-dark ">Article<i class="fas fa-arrow-circle-right pl-2"></i></a></span>
+                            <span class="d-block p-2 mt-2 dropdown-item" style="background-color:#97f3e8;"><a href="grammer.html" class="text-dark ">Grammer<i class="fas fa-arrow-circle-right pl-2"></i></a></span>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 text-center">
                         <div class="d-none d-md-block">
                             <div class="card-header">
                                 <h2>Questions</h2>
@@ -92,15 +107,11 @@
                 <div class="col-md-9">
                     <div class="card">
                         <div class="card-header p-3">
-                            <div class="d-inline" style="font-size:x-large;">Listening Activity 01</div>
+                            <div class="d-inline" style="font-size:x-large;">Grammer Activity 01</div>
                             <div class="d-inline float-right p-2 px-4 text-white rounded" style="background-color: #138c7d;">Marks - 0.5</div>
                         </div>
                         <div class="card-body">
-                            <audio controls style="width: 100%;">
-                                <source src="audio/audio.mp3" type="audio/mpeg">
-                            </audio>
-                        <hr class="bg-light">
-
+        
                         <form>
                             <div class="mb-5">
                                 <label for="Ques01"><b>1. This passage says that early instruments for measuring earthquakes were,</b></label>
@@ -181,6 +192,47 @@
                                     <label class="form-check-label" for="exampleRadios2">people standing in a bus or train</label>
                                 </div>
                             </div>
+
+                            <div class="mb-5">
+                                <label for="Ques01"><b>5. A simple device which consisted of rods that stood up on end like ninepins was replaced by a more sophisticated one because it failed,</b></label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio1" value="option1">
+                                    <label class="form-check-label" for="exampleRadios2">to measure a gentle earthquake</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">to measure a severe earthquake</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios2">to record the direction of the earthquake</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio4" value="option4">
+                                    <label class="form-check-label" for="exampleRadios2">to record the facts with a pen on paper</label>
+                                </div>
+                            </div>
+
+                            <div class="mb-5">
+                                <label for="Ques01"><b>6. A simple device which consisted of rods that stood up on end like ninepins was replaced by a more sophisticated one because it failed,</b></label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio1" value="option1">
+                                    <label class="form-check-label" for="exampleRadios2">to measure a gentle earthquake</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio2" value="option2">
+                                    <label class="form-check-label" for="exampleRadios2">to measure a severe earthquake</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio3" value="option3">
+                                    <label class="form-check-label" for="exampleRadios2">to record the direction of the earthquake</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="eRadio" id="eRadio4" value="option4">
+                                    <label class="form-check-label" for="exampleRadios2">to record the facts with a pen on paper</label>
+                                </div>
+                            </div>
+
                         </form>
                     </div>
                     
